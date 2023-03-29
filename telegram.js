@@ -11,7 +11,7 @@ const STOP = '\n';
 // function for generating response text
 async function GenerateText(prompt) {
     const RESPONSE = await axios.post(
-        // specified url for сщву generate in different programming languages
+        // specified url for code generate in different programming languages
         'https://api.openai.com/v1/engines/davinci-codex/completions',
         // An object thats sends configuration data as a json file for OpenAI API
         {
