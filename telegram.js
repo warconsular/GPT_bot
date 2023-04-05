@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 const axios = require('axios');
 
-const BOT = new Telegraf("6183095333:AAGc6RCLXkIuHgaPuiAKGKaRmgPEPTCBiJg");
+const BOT = new Telegraf("TELEGRAMAPIKEY");
 const GPT_TOKEN = new Telegraf("OPENAIAPIKEY");
 
 // max count tokens for each request 
